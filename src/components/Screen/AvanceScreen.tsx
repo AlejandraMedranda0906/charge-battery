@@ -1,15 +1,14 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const PerfilScreen: React.FC = () => {
+const AvanceScreen: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Perfil</Text>
-      <Text>Nombre: Juan Pérez</Text>
-      <Text>Nickname: Juanky23</Text>
-      <Text>Email: juanperez@example.com</Text>
-      <Text>Edad: 25</Text>
-      <Text>Peso: 70 kg</Text>
+      <Text style={styles.title}>Avance</Text>
+      <Text>Distancia: 10 km</Text>
+      <Text>Tiempo: 30 minutos</Text>
+      <Text>Calorías: 200 kcal</Text>
+      <Text>Batería: 50%</Text>
     </View>
   );
 };
@@ -19,4 +18,4 @@ const styles = StyleSheet.create({
   title: { fontSize: 24, marginBottom: 20 },
 });
 
-export default PerfilScreen;
+export default AvanceScreen;
