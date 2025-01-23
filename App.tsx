@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import SignInScreen from './src/Screen/SignInScreen';
+import SignInScreen from './src/components/Screen/SignInScreen';
 import PerfilScreen from './src/components/Screen/PerfilScreen';
 import HistorialScreen from './src/components/Screen/HistorialScreen';
 import AvanceScreen from './src/components/Screen/AvanceScreen';
