@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, TextInput, Button } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { RootStackParamList } from '../types/navigation';
+import { RootStackParamList } from '../src/Types/Navigation.d.ts';
 
 type LoginScreenProps = {
   navigation: StackNavigationProp<RootStackParamList, 'Login'>;
