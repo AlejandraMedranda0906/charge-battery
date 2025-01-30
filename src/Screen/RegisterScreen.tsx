@@ -1,10 +1,11 @@
 import React from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
-import { RootStackParamList } from './src/Types/Navigation.d.ts';
+import { RootStackParamList } from '../Types/Navigation';
+
 
 type RegisterScreenProps = {
-  navigation: StackNavigationProp<RootStackParamList, 'Register'>;
+  navigation: StackNavigationProp<RootStackParamList, 'RegisterScreen'>;
 };
 
 const RegisterScreen: React.FC<RegisterScreenProps> = ({ navigation }) => {
@@ -17,7 +18,7 @@ const RegisterScreen: React.FC<RegisterScreenProps> = ({ navigation }) => {
       <TextInput placeholder="Edad" style={styles.input} keyboardType="numeric" />
       <TextInput placeholder="Peso (kg)" style={styles.input} keyboardType="numeric" />
       <TextInput placeholder="Contraseña" secureTextEntry style={styles.input} />
-      <Button title="Registrarse" onPress={() => navigation.navigate('Login')} />
+      <Button title="Registrarse" onPress={() => navigation.navigate('SignInScreen')} />
     </View>
   );
 };
