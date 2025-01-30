@@ -4,6 +4,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Types/Navigation';
 
 
+
 type RegisterScreenProps = {
   navigation: StackNavigationProp<RootStackParamList, 'RegisterScreen'>;
 };
