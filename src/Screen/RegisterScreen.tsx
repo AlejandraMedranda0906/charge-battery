@@ -2,8 +2,11 @@ import React from 'react';
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../Types/Navigation';
+<<<<<<< Updated upstream:src/Screen/RegisterScreen.tsx
 
 
+=======
+>>>>>>> Stashed changes:src/components/Screen/RegisterScreen.tsx
 
 type RegisterScreenProps = {
   navigation: StackNavigationProp<RootStackParamList, 'RegisterScreen'>;
